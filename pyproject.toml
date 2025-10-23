@@ -1,7 +1,7 @@
 [project]
-name = "markdown-writer"
+name = "python-markdown-writer"
 version = "0.1.0"
-description = "A simple Markdown writer for Python"
+description = "Create Markdown documents from within your Python code."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

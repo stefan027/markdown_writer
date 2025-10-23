@@ -41,7 +41,7 @@ See [`./examples/example.py`](./examples/example.py) for more examples.
 ## Installation
 Install with `pip`:
 ```
-pip install markdown_writer
+pip install python-markdown-writer
 ```
 
 ## Example usage
