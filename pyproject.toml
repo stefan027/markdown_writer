@@ -1,6 +1,6 @@
 [project]
 name = "python-markdown-writer"
-version = "0.2.1"
+version = "0.3.0"
 description = "Create Markdown documents from within your Python code."
 readme = "README.md"
 requires-python = ">=3.8"

@@ -156,3 +156,15 @@ md.image(alt_text='Cape Town', url=url)
 ```
 
 ![Cape Town](https://www.go2africa.com/wp-content/uploads/2024/11/Banner--1920x630.jpg)
+
+
+### Writing output with `print()`
+You may want to write outputs to `sys.stdout` with `print()` in addition to writing outputs to your Markdown report. Instead of adding a separate `print()` statement to your code, you can just add `do_print = True` to you Markdown Writer calls. For example, instead of:
+```python
+md.code_block(my_code)
+print(my_code)
+```
+You can simply call:
+```python
+md.code_block(my_code, do_print=True)
+```
